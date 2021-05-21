@@ -1,0 +1,147 @@
+#item {
+  width: 550px;
+  height: 300px;
+  margin: auto;
+  margin-top: 140px;
+  color: white;
+  border: 15px solid #ff6347;
+  border-radius: 25px;
+  border-style: outset;
+  background-color: #00000a;
+}
+
+#item #tomato {
+  width: 160px;
+  height: 45px;
+  margin: auto;
+  position: relative;
+  bottom: 54px;
+  border: 1px solid #ff6347;
+  border-radius: 30px 30px 14px 14px;
+  background-color: #E95031;
+}
+
+#item #tomato #bud {
+  width: 50px;
+  height: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #00802b;
+}
+
+#item #tomato #bud .dot {
+  width: 40px;
+  height: 30px;
+  position: relative;
+  left: 55px;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+
+#item #session {
+  width: 160px;
+  position: relative;
+  bottom: 35px;
+  left: 80px;
+  text-align: center;
+  border: 1px solid white;
+}
+
+#item #session #session-label {
+  border: 1px solid white;
+}
+
+#item #session #session-length {
+  border: 1px solid white;
+}
+
+#item #session-set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  left: 10px;
+  font-size: 42px;
+}
+
+#item #break {
+  width: 160px;
+  position: relative;
+  bottom: 125px;
+  left: 309px;
+  text-align: center;
+  border: 1px solid white;
+}
+
+#item #break #break-label {
+  border: 1px solid white;
+}
+
+#item #break #break-length {
+  border: 1px solid white;
+}
+
+#item #break-set {
+  position: relative;
+  bottom: 20px;
+  left: 10px;
+  font-size: 42px;
+}
+
+#item #timer {
+  width: 400px;
+  height: 200px;
+  margin: auto;
+  position: relative;
+  bottom: 140px;
+  text-align: center;
+  border: 1px solid white;
+}
+
+#item #timer #timer-label {
+  width: 400px;
+  font-size: 30px;
+  position: relative;
+  right: 1px;
+  bottom: 1px;
+  border: 1px solid white;
+}
+
+#item #timer #time-left {
+  line-height: 135px;
+  font-size: 150px;
+}
+
+#item #timer #time-left #spanio {
+  font-size: 190px;
+}
+
+#item #start_stop {
+  width: 25px;
+  height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  bottom: 190px;
+  left: 15px;
+  font-size: 25px;
+}
+
+#item #start_stop .fa-pause {
+  position: relative;
+  left: 1.5px;
+}
+
+#item #reset {
+  width: 34px;
+  height: 34px;
+  margin: auto;
+  position: relative;
+  bottom: 367px;
+  left: 183px;
+  text-align: center;
+  font-size: 30px;
+}
+/*# sourceMappingURL=style.css.map */

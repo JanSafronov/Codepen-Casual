@@ -1,0 +1,75 @@
+<link rel="stylesheet" type="text/css" href="Style.css">
+<main id='main' align="center">
+  <header>
+    <h1 id='title'>Survey form</h1>
+    <p id='description'>What kind of game object type you would like to see in the game?</p>
+  </header>
+  <form id='survey-form'>
+    <div class="sub-form">
+      <label id='name-label' for='name'>Enter your name:</label> <br>
+      <input id='name' class='box-field' type="text" placeholder="Name here" required></input><br> <br>
+    </div>
+    <div class='sub-form'>
+      <label id='email-label' for='email'>Enter your email:</label> <br>
+      <input id='email' class='box-field' type="email" placeholder="Email here" required></input> <br> <br>
+    </div>
+    <div class='sub-form'>
+      <label id='number-label' for='number'>Enter your age:</label> <br>
+      <input id='number' class='box-field' type="number" placeholder='Age' min='8' max='100'></input> <br> <br>
+    </div>
+    <div class='sub-form'>
+      <label id='label-dropdown' for='dropdown'>Your satisfaction with the gameplay</label> <br><br>
+      <select id='dropdown' class='box-field'>
+        <option  value="offensive" title="object with ammunition">Great game!</option>
+        <option  value="defensive" title="defensive object, no ammunition">Had fun playing it</option>
+        <option  value="missile" title="missile, ammunition type">It was standard</option>
+        <option  value="back" title="background object, non-interactive">It was pretty bad</option>
+        <option  value="decorative" title="game decoration">Horrible experience</option>
+      </select></div> <br>
+    <div class='sub-form'>
+      <p>Will you continue playing for longer</p>
+      <label>
+        <input class='radio-input' name='play-again' type='radio' value="Yes" />
+        Yes
+      </label> <br>
+      <label>
+        <input class='radio-input' name='play-again' type='radio' value="Not sure"/>
+        Not sure
+      </label> <br>
+      <label>
+        <input class='radio-input' name='play-again' type='radio' value="No"/>
+        No
+      </labed> <br>
+    </div>
+    <div class='sub-form'>
+      <p>Please select the types of objects below you would like to see in the game <br> <span>(see checkbox title for information)</span></p>
+      <label title="object with ammunition">
+        <input class='type' type="checkbox" value="offensive" title="object with ammunition"></input>
+        Offensive
+      </label>
+      <label title="defensive object, no ammunition">
+        <input class='type' type="checkbox" value="defensive" title="defensive object, no ammunition"></input>
+        Defensive
+      </label>
+      <label title="missile, ammunition type">
+        <input class='type' type="checkbox" value="missile" title="missile, ammunition type"></input>
+        Missile
+      </label>
+      <label title="background object, non-interactive">
+        <input class='type' type="checkbox" value="back" title="background object, non-interactive"></input>
+        Back
+      </label>
+      <label title="game decoration">
+        <input class='type' type="checkbox" value="decorative" title="game decoration"></input>
+        Decorative
+      </label>
+    </div>
+    <div class='sub-form'>
+      <p>Please write down here if you have any suggestions how to improve the gameplay</p>
+      <textarea id='texta' type="text-area" placeholder="Your suggestion here"></textarea>
+    </div>
+    <div class='sub-form'>
+      <input id='submit' type='submit' onclick="window.location = '_self'"></input>
+    </div>
+  </form>
+</main>

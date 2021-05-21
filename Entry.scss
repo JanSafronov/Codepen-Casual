@@ -1,0 +1,47 @@
+$defb: 1px solid black;
+
+body {
+    margin: 0;
+}
+
+#nav {
+    height: 50px;
+
+    border: $defb;
+}
+
+#main {
+    width: 600px;
+    height: 800px;
+
+    margin: auto;
+
+    border: $defb;
+
+    div {
+        width: 400px;
+        height: 75px;
+
+        margin: auto;
+        margin-top: 30px;
+
+        display: flex;
+
+        border: $defb;
+
+        h3 {
+            font-size: 35px;
+
+            margin: auto;
+            
+            align-self: center;
+
+            cursor: pointer;
+        }
+
+        h3:hover {
+
+            color: lighten($color: green, $amount: 20%);
+        }
+    }
+}
