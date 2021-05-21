@@ -1,0 +1,31 @@
+$defb: 1px solid black;
+
+#back-container {
+    width: 80px;
+    height: 60px;
+
+    position: fixed;
+
+    display: flex;
+
+    div {
+
+        margin: auto;
+
+        display: flex;
+
+        i {
+            transform: scaleX(1.5);
+
+            font-size: 35px;
+
+            opacity: 15%;
+
+            cursor: pointer;
+        }
+
+        i:hover {
+            opacity: 80%;
+        }
+    }
+}

@@ -4,18 +4,38 @@ body {
 
 #nav {
   height: 50px;
-  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #dfdfdf;
+  -webkit-box-shadow: 0px 1px 10px gray;
+          box-shadow: 0px 1px 10px gray;
+}
+
+#nav h2 {
+  margin: auto;
+  cursor: pointer;
+}
+
+#nav h2:hover {
+  color: #004d00;
 }
 
 #main {
-  width: 600px;
+  width: 70%;
   height: 800px;
   margin: auto;
+  margin-top: 50px;
   border: 1px solid black;
+  background-color: #e4e4e4;
 }
 
 #main div {
-  width: 400px;
+  width: 70%;
   height: 75px;
   margin: auto;
   margin-top: 30px;
@@ -23,6 +43,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   border: 1px solid black;
+  border-radius: 5px;
 }
 
 #main div h3 {
@@ -31,10 +52,17 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  text-align: center;
   cursor: pointer;
 }
 
 #main div h3:hover {
-  color: #00e600;
+  color: #004d00;
+}
+
+@media screen and (max-width: 700px) {
+  #main div h3 {
+    font-size: 20px;
+  }
 }
 /*# sourceMappingURL=Entry.css.map */

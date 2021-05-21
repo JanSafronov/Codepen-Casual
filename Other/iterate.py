@@ -13,7 +13,7 @@ def getJSONFolders() -> int:
     dirsarr = []
     for dir in os.listdir("../Codepen-Casual/Pens/"):
         dirs += 1
-        dirsarr.append({"header": dir, "link": "../" + dir + "/index.html"})
+        dirsarr.append({"header": dir, "link": "/Pens/" + dir + "/index.html"})
     return dirsarr
 
 print(getJSONFolders())

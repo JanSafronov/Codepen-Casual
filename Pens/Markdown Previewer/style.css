@@ -22,7 +22,7 @@
   color: #00e600;
 }
 
-#setWindow {
+#setWindow-Out #setWindow {
   background-color: #e6e6ff;
   border: 1px solid #999999;
   margin: auto;
@@ -32,7 +32,7 @@
   -webkit-user-select: none;
 }
 
-#setWindow input {
+#setWindow-Out #setWindow input {
   width: 36px;
   font-size: 9px;
   text-align: center;
@@ -42,17 +42,17 @@
   display: none;
 }
 
-#setWindow p {
+#setWindow-Out #setWindow p {
   text-align: center;
   font-size: 11px;
 }
 
-#setWindow p:hover {
+#setWindow-Out #setWindow p:hover {
   cursor: pointer;
   color: #00e600;
 }
 
-#setWindow p i {
+#setWindow-Out #setWindow p i {
   font-size: 8.5px;
 }
 

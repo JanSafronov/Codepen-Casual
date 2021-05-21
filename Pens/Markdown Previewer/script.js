@@ -84,7 +84,7 @@ const Preview = (props) => {
 
 const Settings = (props) => {
   return (
-    <div>
+    <div id='setWindow-Out'>
       <i className={props.icon} onClick={function() {$('#setWindow').toggle()}}/>
       <div id='setWindow' onKeyPress={function(e) { if (e.which == 13 || e.KeyCode == 13) { $('input').toggle() } }}>
         <input list="sizeList"/>
