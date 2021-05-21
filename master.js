@@ -8,7 +8,7 @@ class BackArrow extends React.Component {
     }
 
     redirect() {
-        window.location = "/Pens.html";
+        window.location = "/Codepen-Casual/Pens.html";
     }
 
     render() {
