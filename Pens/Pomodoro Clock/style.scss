@@ -1,0 +1,175 @@
+#item {
+  width: 550px;
+  height: 300px;
+  
+  margin: auto;
+  margin-top: 140px;
+  
+  color: white;
+  
+  border: 15px solid #ff6347;
+  border-radius: 25px;
+  border-style: outset;
+  background-color: #00000a;
+  
+  #tomato {
+    width: 160px;
+    height: 45px;
+    
+    margin: auto;
+    
+    position: relative;
+    bottom: 54px;
+    
+    border: 1px solid #ff6347;
+    border-radius: 30px 30px 14px 14px;
+    background-color: #E95031;
+    
+    #bud {
+      width: 50px;
+      height: 15px;
+      
+      display: flex;
+      
+      background-color: #00802b;
+      
+      .dot {
+        width: 40px;
+        height: 30px;
+        
+        position: relative;
+        left: 55px;
+        
+        border: 1px solid white;
+        border-radius: 100%;
+      }
+    }
+  }
+  
+  #session {
+    width: 160px;
+    
+    position: relative;
+    bottom: 35px;
+    left: 80px;
+    
+    text-align: center;
+    
+    border: 1px solid white;
+    
+    #session-label {
+      border: 1px solid white;
+    }
+    
+    #session-length {
+      border: 1px solid white;
+    }
+  }
+  
+  #session-set {
+    
+    display: flex;
+    
+    position: relative;
+    left: 10px;
+    
+    font-size: 42px;
+  }
+  
+  #break {
+    width: 160px;
+    
+    position: relative;
+    bottom: 125px;
+    left: 309px;
+    
+    text-align: center;
+    
+    border: 1px solid white;
+    
+    #break-label {
+      border: 1px solid white;
+    }
+    
+    #break-length {
+      border: 1px solid white;
+    }
+  }
+  
+  #break-set {
+    //display: flex;
+    
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+    
+    font-size: 42px;
+  }
+  
+  #timer {
+    width: 400px;
+    height: 200px;
+    
+    margin: auto;
+    
+    position: relative;
+    bottom: 140px;
+    
+    text-align: center;
+    
+    border: 1px solid white;
+    
+    #timer-label {
+      width: 400px;
+      font-size: 30px;
+      
+      position: relative;
+      right: 1px;
+      bottom: 1px;
+      
+      border: 1px solid white;
+    }
+    
+    #time-left {
+      
+      line-height: 135px;
+      font-size: 150px;
+      
+      #spanio {
+        font-size: 190px;
+      }
+    }
+  }
+  
+  #start_stop {
+    width: 25px;
+    height: 25px;
+    
+    display: flex;
+    
+    position: relative;
+    bottom: 190px;
+    left: 15px;
+    
+    font-size: 25px;
+    
+    .fa-pause {
+      position: relative;
+      left: 1.5px;
+    }
+  }
+  
+  #reset {
+    width: 34px;
+    height: 34px;
+    
+    margin: auto;
+    
+    position: relative;
+    bottom: 367px;
+    left: 183px;
+    
+    text-align: center;
+    font-size: 30px;
+  }
+}
