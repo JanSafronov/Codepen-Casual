@@ -49,7 +49,7 @@ body {
   display: flex;
 }
 
-#main div h2 {
+#main div h4 {
   font-size: 35px;
   margin: auto;
   -ms-flex-item-align: center;
