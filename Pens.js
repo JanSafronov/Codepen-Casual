@@ -1,7 +1,7 @@
 let folders = [
-    {'header': 'Markdown Previewer', 'link': '/Pens/Markdown Previewer/index.html'}, 
-    {'header': 'Pomodoro Clock', 'link': '/Pens/Pomodoro Clock/index.haml'}, 
-    {'header': 'Survey Form', 'link': '/Pens/Survey Form/index.html'}
+    {'header': 'Markdown Previewer', 'link': '/Codepen-Casual/Pens/Markdown Previewer/index.html'}, 
+    {'header': 'Pomodoro Clock', 'link': '/Codepen-Casual/Pens/Pomodoro Clock/index.haml'}, 
+    {'header': 'Survey Form', 'link': '/Codepen-Casual/Pens/Survey Form/index.html'}
 ]
 
 class Item extends React.Component {
