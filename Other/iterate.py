@@ -1,12 +1,4 @@
-
-
-import filecmp, fileinput, re, typing
-import urllib, urllib.error, urllib.parse, urllib.request, urllib.response, urllib.robotparser
-import io, os, os.path, parser, parso, parso.parser, parso.file_io, pathlib, smtpd
-import http, http.client, http.cookiejar, http.cookies, http.server
-import json, json.encoder, json.tool
-import numbers, math, mmapfile, mmap, mimetypes
-import lib
+import os
 
 def getJSONFolders() -> int:
     dirs = 0
