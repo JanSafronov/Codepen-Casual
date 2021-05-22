@@ -17,10 +17,16 @@ body {
         margin: auto;
 
         cursor: pointer;
-    }
 
-    h2:hover {
-        color: darken($color: green, $amount: 10%);
+        a {
+            text-decoration: none;
+
+            color: black;
+        }
+
+        a:hover {
+            color: darken($color: green, $amount: 10%);
+        }
     }
 }
 
@@ -70,5 +76,15 @@ body {
                 font-size: 20px;
             }
         }
+    }
+}
+
+#notice {
+    margin: auto;
+
+    border: $defb;
+
+    h5 {
+        text-align: center;
     }
 }

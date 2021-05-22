@@ -21,7 +21,12 @@ body {
   cursor: pointer;
 }
 
-#nav h2:hover {
+#nav h2 a {
+  text-decoration: none;
+  color: black;
+}
+
+#nav h2 a:hover {
   color: #004d00;
 }
 
@@ -64,5 +69,14 @@ body {
   #main div h3 {
     font-size: 20px;
   }
+}
+
+#notice {
+  margin: auto;
+  border: 1px solid black;
+}
+
+#notice h5 {
+  text-align: center;
 }
 /*# sourceMappingURL=Entry.css.map */
